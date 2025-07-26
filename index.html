@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="sticky top-0 bg-white shadow z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-4">
+      <h1 class="text-2xl font-bold">MyBrand</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:text-blue-500">Home</a>
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#services" class="hover:text-blue-500">Services</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-blue-50 py-16 px-6">
+    <div class="container mx-auto grid md:grid-cols-2 items-center gap-8">
+      <div>
+        <h2 class="text-4xl font-bold mb-4">Welcome to Our Landing Page</h2>
+        <p class="mb-6 text-lg">Discover our awesome services designed to help you succeed online.</p>
+        <a href="#services" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Get Started</a>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/400x300" alt="Hero Image" class="rounded-lg shadow" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 px-6 bg-white">
+    <div class="container mx-auto text-center mb-12">
+      <h3 class="text-3xl font-bold mb-4">Our Services</h3>
+      <p class="text-gray-600">We provide high quality solutions tailored to your needs</p>
+    </div>
+    <div class="container mx-auto grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <div class="text-blue-600 text-4xl mb-4">⚙️</div>
+        <h4 class="text-xl font-bold mb-2">Custom Development</h4>
+        <p>We build solutions that are tailored exactly to your business requirements.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <div class="text-blue-600 text-4xl mb-4">📈</div>
+        <h4 class="text-xl font-bold mb-2">SEO Optimization</h4>
+        <p>Get your website to the top of Google with our expert SEO services.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <div class="text-blue-600 text-4xl mb-4">💼</div>
+        <h4 class="text-xl font-bold mb-2">Consulting</h4>
+        <p>We offer expert guidance to help you grow your digital business effectively.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 mt-12">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+      <div class="mb-4 md:mb-0">
+        &copy; 2025 MyBrand. All rights reserved.
+      </div>
+      <div class="space-x-4">
+        <a href="#" class="hover:text-blue-400">Facebook</a>
+        <a href="#" class="hover:text-blue-400">Twitter</a>
+        <a href="#" class="hover:text-blue-400">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

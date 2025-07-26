@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empowering Your Digital Presence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="sticky top-0 bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+      <div class="flex items-center space-x-3">
+        <img src="images\Apple.png" alt="Logo" class="w-10 h-10 rounded-full">
+        <h1 class="text-xl font-bold">MyBrand</h1>
+      </div>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-blue-600">About</a>
+        <a href="contact.html" class="text-gray-700 hover:text-blue-600">Services</a>
+        <a href="services.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-50 py-12 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-8">
+      <div class="md:w-1/2 text-center md:text-left">
+        <h2 class="text-3xl md:text-5xl font-extrabold mb-4">Your Success Starts Here</h2>
+        <p class="text-lg mb-6">Build powerful solutions with clean and responsive design.</p>
+        <button id="get-started-btn" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+          Get Started
+        </button>
+      </div>
+      <div class="md:w-1/2">
+        <img src="images\Apple.png" alt="Hero" class="w-full rounded shadow" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-10">Our Services</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-md transition">
+          <div class="text-4xl mb-4">💡</div>
+          <h3 class="text-xl font-semibold mb-2">Creative Ideas</h3>
+          <p class="text-gray-600">We turn your ideas into impactful digital solutions.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-md transition">
+          <div class="text-4xl mb-4">⚙️</div>
+          <h3 class="text-xl font-semibold mb-2">Development</h3>
+          <p class="text-gray-600">Robust and scalable frontend & backend development.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-md transition">
+          <div class="text-4xl mb-4">📈</div>
+          <h3 class="text-xl font-semibold mb-2">Marketing</h3>
+          <p class="text-gray-600">Boost your reach with our strategic marketing tools.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <div class="flex justify-center space-x-6 mb-4">
+        <a href="#" class="hover:text-blue-400">Instagram</a>
+        <a href="#" class="hover:text-blue-400">Facebook</a>
+        <a href="#" class="hover:text-blue-400">Twitter</a>
+      </div>
+      <p>&copy; 2025 MyBrand. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JS Redirect -->
+  <script>
+    document.getElementById("get-started-btn").addEventListener("click", function () {
+      window.location.href = "about.html";
+    });
+  </script>
+
+</body>
+</html>
